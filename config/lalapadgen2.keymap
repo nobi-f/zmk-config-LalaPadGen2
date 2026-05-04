@@ -64,8 +64,13 @@
         };
 
         ENTR {
-            bindings = <&kp KP_ENTER>;
+            bindings = <&kp ENTER>;
             key-positions = <18 19>;
+        };
+
+        Del {
+            bindings = <&kp DELETE>;
+            key-positions = <28 29>;
         };
     };
 
@@ -91,7 +96,7 @@
 &kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4  &kp N5                         &kp KP_NUMLOCK    &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
 &kp NUMBER_6      &kp N7             &kp N8        &kp N9        &kp N0                         &none             &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
 &kp F6            &kp F7             &kp F8        &kp F9        &kp F10                        &none             &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
-&trans            &trans             &trans        &trans        &trans   &trans  &kp DEL       &trans            &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
+&trans            &trans             &trans        &trans        &trans   &trans  &trans        &trans            &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
                   &trans             &trans        &trans        &trans   &trans  &mmv MOVE_UP  &mmv MOVE_LEFT    &mmv MOVE_DOWN     &mmv MOVE_RIGHT  &trans
 &trans            &trans             &trans                                                                                          &trans           &trans           &trans
 &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans        &trans        &trans                         &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans           &trans
@@ -103,7 +108,7 @@
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT                            &kp PAGE_UP    &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
 &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp SCROLLLOCK
-&kp GRAVE        &kp SQT        &kp SEMI      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                      &trans         &mkp MB4  &trans          &mkp MB5   &kp PAUSE_BREAK
+&kp GRAVE        &kp SQT        &kp SEMI      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                      &none          &mkp MB1  &none           &mkp MB2   &kp PAUSE_BREAK
 &trans           &trans         &trans        &trans                &trans                 &trans  &trans  &trans         &trans    &trans          &trans     &trans
                  &trans         &trans        &trans                &trans                 &trans  &trans  &trans         &trans    &trans          &trans
 &trans           &trans         &trans                                                                                              &trans          &trans     &trans
@@ -116,7 +121,7 @@
             bindings = <
 &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &out OUT_TOG                   &bt BT_SEL 0                   &bt BT_SEL 1                   &bt BT_SEL 2                   &bt BT_SEL 3
 &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &sys_reset                     &bootloader                    &bt BT_CLR                     &bt BT_CLR_ALL                 &trans
-&kp F1   &kp F12  &kp F3   &kp F4   &kp F5                   &zip_dyn_scale ZDS_XY ZDS_INC  &zip_dyn_scale ZDS_XY ZDS_DEC  &zip_dyn_scale ZDS_SC ZDS_INC  &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &zip_dyn_scale ZDS_XY ZDS_INC  &zip_dyn_scale ZDS_XY ZDS_DEC  &zip_dyn_scale ZDS_SC ZDS_INC  &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST
 &trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans                         &trans                         &trans                         &trans                         &trans
          &trans   &trans   &trans   &trans   &trans  &trans  &trans                         &trans                         &trans                         &trans
 &trans   &trans   &trans                                                                                                   &trans                         &trans                         &trans
