@@ -95,8 +95,8 @@
 &kp Z      &kp X         &kp C         &kp V             &kp B                                       &kp N           &kp M             &kp COMMA        &kp PERIOD  &kp SLASH
 &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 LANGUAGE_2  &kp SPACE  &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &kp SPACE       &lt 2 LANGUAGE_1  &kp SEMICOLON    &kp SQT     &kp BACKSLASH
            &mkp MB2      &kp RIGHT     &kp DOWN          &kp LEFT   &kp UP          &mmv MOVE_UP     &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT  &mkp MB1
-&mkp LCLK  &mkp RCLK     &mkp MCLK                                                                                                     &mkp LCLK        &mkp RCLK   &mkp MCLK
-&mkp MB4   &mkp MB5      &kp LG(TAB)   &kp LG(D)         &kp LCTRL                                   &mkp MB4        &mkp MB5          &kp LG(TAB)      &kp LG(D)   &kp LCTRL
+&mkp MB1   &mkp MB2      &mkp MB3                                                                                                      &mkp MB1         &mkp MB2    &mkp MB3
+&mkp MB4   &mkp MB5      &kp LG(TAB)   &kp LG(H)         &kp LCTRL                                   &mkp MB4        &mkp MB5          &kp LG(TAB)      &kp LG(H)   &kp LCTRL
             >;
         };
 
@@ -148,7 +148,7 @@
 &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 5 LANGUAGE_2  &kp SPACE  &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &kp SPACE       &lt 6 LANGUAGE_1  &mt2 SEMICOLON PLUS  &mt2 COLON ASTERISK  &kp BACKSLASH
            &mkp MB2      &kp RIGHT     &kp DOWN          &kp LEFT   &kp UP          &mmv MOVE_UP     &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT      &mkp MB1
 &mkp LCLK  &mkp RCLK     &mkp MCLK                                                                                                     &mkp LCLK            &mkp RCLK            &mkp MCLK
-&mkp MB4   &mkp MB5      &kp LG(TAB)   &kp LG(D)         &kp LCTRL                                   &mkp MB4        &mkp MB5          &kp LG(TAB)          &kp LG(D)            &kp LCTRL
+&mkp MB4   &mkp MB5      &kp LG(TAB)   &kp LG(D)         &kp LCTRL                                   &mkp MB4        &mkp MB5          &kp LG(TAB)          &kp RG(D)            &kp RCTRL
             >;
         };
 
