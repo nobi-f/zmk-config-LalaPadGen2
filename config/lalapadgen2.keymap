@@ -168,13 +168,13 @@
         Win_Tertiary {
             display-name = "tertiary_layer";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT                            &kp PAGE_UP      &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
-&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp PAGE_DOWN    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp SCROLLLOCK
-&kp GRAVE        &kp SQT        &kp SEMI      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                      &none            &mkp MB1  &none           &mkp MB2   &kp PAUSE_BREAK
-&trans           &trans         &trans        &trans                &kp LEFT_SHIFT         &trans  &trans  &kp RIGHT_SHIFT  &trans    &trans          &trans     &trans
-                 &trans         &trans        &trans                &trans                 &trans  &trans  &trans           &trans    &trans          &trans
-&trans           &trans         &trans                                                                                                &trans          &trans     &trans
-&trans           &trans         &trans        &trans                &trans                                 &trans           &trans    &trans          &trans     &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH              &kp DOLLAR             &kp PERCENT                        &kp PAGE_UP      &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
+&kp AMPERSAND    &kp APOSTROPHE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none                              &kp PAGE_DOWN    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp SCROLLLOCK
+&kp GRAVE        &kp COLON          &kp SEMI              &kp LEFT_BRACKET       &kp RIGHT_BRACKET                  &none            &mkp MB1  &none           &mkp MB2   &kp PAUSE_BREAK
+&trans           &trans             &trans                &trans                 &kp LEFT_SHIFT     &trans  &trans  &kp RIGHT_SHIFT  &trans    &trans          &trans     &trans
+                 &trans             &trans                &trans                 &trans             &trans  &trans  &trans           &trans    &trans          &trans
+&trans           &trans             &trans                                                                                                     &trans          &trans     &trans
+&trans           &trans             &trans                &trans                 &trans                             &trans           &trans    &trans          &trans     &trans
             >;
         };
     };
