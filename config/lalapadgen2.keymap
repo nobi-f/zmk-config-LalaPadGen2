@@ -50,17 +50,17 @@
 
         CONBO_ESC {
             bindings = <&kp ESCAPE>;
-            key-positions = <1 2>;
+            key-positions = <1 0>;
         };
 
         COMBO_TAB {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <11 10>;
         };
 
         BS {
             bindings = <&kp BSPC>;
-            key-positions = <8 7>;
+            key-positions = <8 9>;
         };
 
         ENTR {
@@ -70,12 +70,12 @@
 
         Del {
             bindings = <&kp DELETE>;
-            key-positions = <28 27>;
+            key-positions = <28 29>;
         };
 
         Win_Layer {
             bindings = <&to 4>;
-            key-positions = <4 5>;
+            key-positions = <14 15>;
         };
 
         Def_Layer {
@@ -90,26 +90,26 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&kp Q      &kp W             &kp E         &kp R             &kp T                                       &kp Y           &kp U             &kp I            &kp O              &kp P
-&kp A      &mt LEFT_SHIFT S  &kp D         &kp F             &kp G                                       &kp H           &kp J             &kp K            &mt RIGHT_SHIFT L  &mt2 EQUAL MINUS
-&kp Z      &kp X             &kp C         &kp V             &kp B                                       &kp N           &kp M             &kp COMMA        &kp PERIOD         &kp SLASH
-&kp LCTRL  &kp LEFT_ALT      &kp LEFT_WIN  &lt 1 LANGUAGE_2  &kp SPACE  &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &kp SPACE       &lt 2 LANGUAGE_1  &kp SEMICOLON    &kp SQT            &kp BACKSLASH
-           &mkp MB2          &kp RIGHT     &kp DOWN          &kp LEFT   &kp UP          &mmv MOVE_UP     &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT  &mkp MB1
-&mkp MB1   &mkp MB2          &mkp MB3                                                                                                      &mkp MB1         &mkp MB2           &mkp MB3
-&mkp MB4   &mkp MB5          &kp LG(TAB)   &kp LG(H)         &kp LCTRL                                   &mkp MB4        &mkp MB5          &kp LG(TAB)      &kp LG(H)          &kp LCTRL
+&kp Q      &kp W              &kp E         &kp R        &kp T                                                    &kp Y                    &kp U           &kp I            &kp O               &kp P
+&kp A      &mt2 LEFT_SHIFT S  &kp D         &kp F        &kp G                                                    &kp H                    &kp J           &kp K            &mt2 RIGHT_SHIFT L  &mt2 EQUAL MINUS
+&kp Z      &kp X              &kp C         &kp V        &kp B                                                    &kp N                    &kp M           &kp COMMA        &kp PERIOD          &kp SLASH
+&kp LCTRL  &kp LEFT_ALT       &kp LEFT_WIN  &lt 1 SPACE  &mt LEFT_CONTROL LANG2  &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &mt RIGHT_CONTROL LANG1  &lt 2 SPACE     &kp SEMICOLON    &kp SQT             &kp BACKSLASH
+           &mkp MB2           &kp RIGHT     &kp DOWN     &kp LEFT                &kp UP          &mmv MOVE_UP     &mmv MOVE_LEFT           &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB1
+&mkp MB1   &mkp MB2           &mkp MB3                                                                                                                     &mkp MB1         &mkp MB2            &mkp MB3
+&mkp MB4   &mkp MB5           &kp LG(TAB)   &kp LG(H)    &kp LCTRL                                                &mkp MB4                 &mkp MB5        &kp LG(TAB)      &kp LG(H)           &kp LCTRL
             >;
         };
 
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3     &kp NUMBER_4    &kp N5                                       &kp KP_NUMLOCK    &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
-&kp NUMBER_6      &kp N7             &kp N8           &kp N9          &kp N0                                       &none             &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
-&kp F6            &kp F7             &kp F8           &kp F9          &kp F10                                      &none             &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
-&trans            &trans             &trans           &trans          &kp RIGHT_SHIFT  &trans        &trans        &kp LEFT_SHIFT    &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
-                  &trans             &mmv MOVE_RIGHT  &mmv MOVE_DOWN  &mmv MOVE_LEFT   &mmv MOVE_UP  &kp UP_ARROW  &kp LEFT_ARROW    &kp DOWN           &kp RIGHT_ARROW  &trans
-&trans            &trans             &trans                                                                                                             &trans           &trans           &trans
-&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans          &trans                                       &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans           &trans
+&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3     &kp NUMBER_4    &kp N5                                             &kp KP_NUMLOCK     &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
+&kp NUMBER_6      &kp N7             &kp N8           &kp N9          &kp N0                                             &none              &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
+&kp F6            &kp F7             &kp F8           &kp F9          &kp F10                                            &none              &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
+&trans            &trans             &trans           &trans          &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
+                  &trans             &mmv MOVE_RIGHT  &mmv MOVE_DOWN  &mmv MOVE_LEFT    &mmv MOVE_UP    &kp UP_ARROW     &kp LEFT_ARROW     &kp DOWN           &kp RIGHT_ARROW  &trans
+&trans            &trans             &trans                                                                                                                    &trans           &trans           &trans
+&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans          &trans                                             &kp LC(LG(LEFT))   &kp LC(LG(RIGHT))  &trans           &trans           &trans
             >;
         };
 
