@@ -168,13 +168,13 @@
         Win_Tertiary {
             display-name = "tertiary_layer";
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH          &kp DOLLAR            &kp PERCENT                            &kp PAGE_UP      &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
-&kp AT_SIGN      &kp CARET          &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp PAGE_DOWN    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp SCROLLLOCK
-&kp GRAVE        &kp SEMICOLON      &kp COLON         &kp LEFT_BRACKET      &kp RIGHT_BRACKET                      &none            &mkp MB1  &none           &mkp MB2   &kp PAUSE_BREAK
-&trans           &trans             &trans            &trans                &kp LEFT_SHIFT         &trans  &trans  &kp RIGHT_SHIFT  &trans    &trans          &trans     &trans
-                 &trans             &trans            &trans                &trans                 &trans  &trans  &trans           &trans    &trans          &trans
-&trans           &trans             &trans                                                                                                    &trans          &trans     &trans
-&trans           &trans             &trans            &trans                &trans                                 &trans           &trans    &trans          &trans     &trans
+&kp LS(N1)        &kp LS(NUMBER_2)  &kp LS(NUMBER_3)   &kp LS(NUMBER_4)  &kp LS(N5)                         &kp PAGE_UP      &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
+&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N8)         &kp RS(NUMBER_9)  &kp RS(N0)                         &kp PAGE_DOWN    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp SCROLLLOCK
+&kp GRAVE         &kp SEMICOLON     &kp LS(SEMICOLON)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                  &none            &mkp MB1  &none           &mkp MB2   &kp PAUSE_BREAK
+&trans            &trans            &trans             &trans            &kp LEFT_SHIFT     &trans  &trans  &kp RIGHT_SHIFT  &trans    &trans          &trans     &trans
+                  &trans            &trans             &trans            &trans             &trans  &trans  &trans           &trans    &trans          &trans
+&trans            &trans            &trans                                                                                             &trans          &trans     &trans
+&trans            &trans            &trans             &trans            &trans                             &trans           &trans    &trans          &trans     &trans
             >;
         };
     };
