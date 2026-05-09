@@ -82,6 +82,11 @@
             bindings = <&to 0>;
             key-positions = <24 25>;
         };
+
+        BS2 {
+            bindings = <&kp BSPC>;
+            key-positions = <8 7>;
+        };
     };
 
     keymap {
@@ -144,7 +149,7 @@
             bindings = <
 &kp Q      &kp W              &kp E         &kp R        &kp T                                                  &kp Y                         &kp U           &kp I                        &kp O               &mt2 BACKSPACE P
 &kp A      &mt2 LEFT_SHIFT S  &kp D         &kp F        &kp G                                                  &kp H                         &kp J           &kp K                        &mt2 RIGHT_SHIFT L  &mt2 EQUAL MINUS
-&kp Z      &kp X              &kp C         &kp V        &kp B                                                  &kp N                         &kp M           &kp COMMA                    &kp DOT             &mt2 DEL LS(SLASH)
+&kp Z      &kp X              &kp C         &kp V        &kp B                                                  &kp N                         &kp M           &kp COMMA                    &kp DOT             &mt2 DEL SLASH
 &kp LCTRL  &kp LEFT_ALT       &kp LEFT_WIN  &lt 5 SPACE  &mt LCTRL LANGUAGE_2  &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &mt RIGHT_CONTROL LANGUAGE_1  &lt 6 SPACE     &mt2 SEMICOLON LEFT_BRACKET  &kp RS(INT1)        &kp INT1
            &mkp MB2           &kp RIGHT     &kp DOWN     &kp LEFT              &kp UP          &mmv MOVE_UP     &mmv MOVE_LEFT                &mmv MOVE_DOWN  &mmv MOVE_RIGHT              &mkp MB1
 &mkp LCLK  &mkp RCLK          &mkp MCLK                                                                                                                       &mkp LCLK                    &mkp RCLK           &mkp MCLK
