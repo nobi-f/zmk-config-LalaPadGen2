@@ -70,7 +70,7 @@
 
         Del {
             bindings = <&kp DELETE>;
-            key-positions = <28 29>;
+            key-positions = <28 27>;
         };
 
         Win_Layer {
