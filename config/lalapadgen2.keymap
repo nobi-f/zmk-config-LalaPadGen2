@@ -173,13 +173,13 @@
         Win_Tertiary {
             display-name = "tertiary_layer";
             bindings = <
-&kp LS(N1)     &kp LS(LEFT_BRACKET)  &kp LS(NUMBER_3)   &kp LS(NUMBER_4)  &kp LS(N5)                               &kp PAGE_UP      &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
-&kp EQUAL      &kp LS(NUMBER_6)      &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &kp SINGLE_QUOTE                         &kp PAGE_DOWN    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp SCROLLLOCK
-&kp LS(EQUAL)  &kp LS(N7)            &kp RIGHT_BRACKET  &kp NUHS          &kp SINGLE_QUOTE                         &kp INT1         &mkp MB1  &none           &mkp MB2   &kp PAUSE_BREAK
-&trans         &trans                &trans             &trans            &kp LEFT_SHIFT    &trans  &kp BACKSPACE  &kp RIGHT_SHIFT  &trans    &trans          &trans     &trans
-               &trans                &trans             &trans            &trans            &trans  &trans         &trans           &trans    &trans          &trans
-&trans         &trans                &trans                                                                                                   &trans          &trans     &trans
-&trans         &trans                &trans             &trans            &trans                                   &trans           &trans    &trans          &trans     &trans
+&kp LS(N1)     &kp LS(LEFT_BRACKET)  &kp LS(NUMBER_3)   &kp LS(NUMBER_4)  &kp LS(N5)                                                    &kp PAGE_UP      &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
+&kp EQUAL      &kp LS(NUMBER_6)      &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &kp LS(SINGLE_QUOTE)                                          &kp PAGE_DOWN    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp RIGHT_SHIFT
+&kp LS(EQUAL)  &kp LS(N7)            &kp RIGHT_BRACKET  &kp NUHS          &kp SINGLE_QUOTE                                              &kp INT1         &mkp MB1  &none           &mkp MB2   &kp RIGHT_WIN
+&trans         &trans                &trans             &trans            &kp LC(LG(LEFT))      &kp RC(RG(RIGHT_ARROW))  &kp BACKSPACE  &kp RIGHT_SHIFT  &trans    &trans          &trans     &trans
+               &trans                &trans             &trans            &trans                &trans                   &trans         &trans           &trans    &trans          &trans
+&trans         &trans                &trans                                                                                                                        &trans          &trans     &trans
+&trans         &trans                &trans             &trans            &trans                                                        &trans           &trans    &trans          &trans     &trans
             >;
         };
 
