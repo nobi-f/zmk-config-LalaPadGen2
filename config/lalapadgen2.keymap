@@ -108,13 +108,13 @@
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3     &kp NUMBER_4    &kp NUMBER_5                                       &kp CLEAR          &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
-&kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8     &kp NUMBER_9    &kp NUMBER_0                                       &kp AT             &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
-&kp F6            &kp F7             &kp F8           &kp F9          &kp F10                                            &kp UNDER          &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
-&trans            &trans             &trans           &trans          &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
-                  &trans             &mmv MOVE_RIGHT  &mmv MOVE_DOWN  &mmv MOVE_LEFT    &mmv MOVE_UP    &kp UP_ARROW     &kp LEFT_ARROW     &kp DOWN           &kp RIGHT_ARROW  &trans
-&trans            &trans             &trans                                                                                                                    &trans           &trans           &trans
-&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans          &trans                                             &kp LC(LG(LEFT))   &kp LC(LG(RIGHT))  &trans           &trans           &trans
+&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3     &kp NUMBER_4    &kp NUMBER_5                                            &kp CLEAR              &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
+&kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8     &kp NUMBER_9    &kp NUMBER_0                                            &kp AT                 &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
+&kp F6            &kp F7             &kp F8           &kp F9          &kp F10                                                 &kp UNDER              &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
+&trans            &trans             &trans           &trans          &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
+                  &trans             &mmv MOVE_RIGHT  &mmv MOVE_DOWN  &mmv MOVE_LEFT    &mmv MOVE_UP    &kp UP_ARROW          &kp LEFT_ARROW         &kp DOWN           &kp RIGHT_ARROW  &trans
+&trans            &trans             &trans                                                                                                                             &trans           &trans           &trans
+&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans          &trans                                                  &kp LC(LG(LEFT))       &kp LC(LG(RIGHT))  &trans           &trans           &trans
             >;
         };
 
@@ -122,9 +122,9 @@
             display-name = "tertiary_layer";
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN    &kp HASH              &kp DOLLAR             &kp PERCENT                              &kp PAGE_UP    &kp HOME  &kp UP_ARROW    &kp END    &kp RIGHT_CONTROL
-&kp CARET        &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTRK                                &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp RIGHT_SHIFT
-&kp GRAVE        &kp SQT        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON                            &none          &mkp MB1  &none           &mkp MB2   &kp RIGHT_WIN
-&trans           &trans         &trans                &trans                 &kp LS(F16)    &kp F16  &kp RIGHT_SHIFT  &kp RCTRL      &trans    &trans          &trans     &trans
+&kp CARET        &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTRK                                &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp RIGHT_ALT
+&kp GRAVE        &kp SQT        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON                            &none          &mkp MB1  &mkp MB3        &mkp MB2   &kp RIGHT_WIN
+&trans           &trans         &trans                &trans                 &kp LS(F16)    &kp F16  &kp RIGHT_SHIFT  &kp RCTRL      &trans    &trans          &trans     &kp RIGHT_SHIFT
                  &trans         &trans                &trans                 &trans         &trans   &trans           &trans         &trans    &trans          &trans
 &trans           &trans         &trans                                                                                                         &trans          &trans     &trans
 &trans           &trans         &trans                &trans                 &trans                                   &trans         &trans    &trans          &trans     &trans
