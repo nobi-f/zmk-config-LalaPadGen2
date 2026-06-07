@@ -206,8 +206,8 @@
         };
 
         Cond_Syslayer_2 {
-            if-layers = <7 6>;
-            then-layer = <8>;
+            if-layers = <5 6>;
+            then-layer = <7>;
         };
     };
 };
