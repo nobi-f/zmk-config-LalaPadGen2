@@ -108,7 +108,7 @@
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&kp LG(F1)        &kp LA(F1)         &kp LC(DOWN_ARROW)  &kp LG(F4)      &kp LS(F1)                                              &kp CLEAR              &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
+&kp LS(F1)        &kp LA(F1)         &kp LC(DOWN_ARROW)  &kp LG(F4)      &kp LG(F1)                                              &kp CLEAR              &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
 &kp F1            &kp F2             &kp F3              &kp F4          &kp F5                                                  &kp AT                 &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
 &kp F6            &kp F7             &kp F8              &kp F9          &kp F10                                                 &kp UNDER              &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
 &trans            &trans             &trans              &trans          &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
@@ -150,7 +150,7 @@
 &kp Q      &kp W         &kp E         &kp R             &kp T                                             &kp Y                    &kp U             &kp I                        &kp O         &mt2 BACKSPACE P
 &kp A      &kp S         &kp D         &kp F             &kp G                                             &kp H                    &kp J             &kp K                        &kp L         &mt2 EQUAL MINUS
 &kp Z      &kp X         &kp C         &kp V             &kp B                                             &kp N                    &kp M             &kp COMMA                    &kp DOT       &mt2 DEL SLASH
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 7 LANGUAGE_2  &mt LCTRL SPACE  &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &mt RIGHT_CONTROL SPACE  &lt 6 LANGUAGE_1  &mt2 SEMICOLON LEFT_BRACKET  &kp RS(INT1)  &kp INT1
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 5 LANGUAGE_2  &mt LCTRL SPACE  &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &mt RIGHT_CONTROL SPACE  &lt 6 LANGUAGE_1  &mt2 SEMICOLON LEFT_BRACKET  &kp RS(INT1)  &kp INT1
            &mkp MB2      &kp RIGHT     &kp DOWN          &kp LEFT         &kp UP          &mmv MOVE_UP     &mmv MOVE_LEFT           &mmv MOVE_DOWN    &mmv MOVE_RIGHT              &mkp MB1
 &mkp LCLK  &mkp RCLK     &mkp MCLK                                                                                                                    &mkp LCLK                    &mkp RCLK     &mkp MCLK
 &mkp MB4   &mkp MB5      &kp LG(TAB)   &kp LG(D)         &kp LCTRL                                         &mkp MB4                 &mkp MB5          &kp LG(TAB)                  &kp RG(D)     &kp RCTRL
@@ -160,7 +160,7 @@
         Win_Secondary {
             display-name = "secondary_layer";
             bindings = <
-&kp LG(TAB)       &kp LG(D)          &kp LC(TAB)      &kp LG(T)       &none                                           &kp CLEAR                &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
+&kp RG(TAB)       &kp RG(D)          &kp LC(TAB)      &kp LG(T)       &none                                           &kp CLEAR                &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
 &kp F1            &kp F2             &kp F3           &kp F4          &kp F5                                          &kp LEFT_BRACKET         &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
 &kp F6            &kp F7             &kp F8           &kp F9          &kp F10                                         &kp RS(INTERNATIONAL_1)  &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
 &trans            &trans             &trans           &trans          &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp RA(LEFT)  &kp RA(RIGHT_ARROW)      &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
