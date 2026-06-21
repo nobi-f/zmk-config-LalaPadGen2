@@ -55,7 +55,7 @@
 
         COMBO_TAB {
             bindings = <&kp TAB>;
-            key-positions = <11 10>;
+            key-positions = <11 12>;
         };
 
         BS {
@@ -86,6 +86,11 @@
         BS2 {
             bindings = <&kp BSPC>;
             key-positions = <8 7>;
+        };
+
+        ESC2 {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
         };
     };
 
