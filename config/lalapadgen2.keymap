@@ -115,8 +115,8 @@
             bindings = <
 &kp LS(F1)           &kp LA(F1)           &kp LC(DOWN_ARROW)   &kp LG(F4)           &kp LG(F1)                                                  &kp CLEAR              &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
 &mt2 F1 KP_NUMBER_1  &mt2 F2 KP_NUMBER_2  &mt2 F3 KP_NUMBER_3  &mt2 F4 KP_NUMBER_4  &mt2 F5 KP_NUMBER_5                                         &kp AT                 &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
-&mt2 F6 KP_NUMBER_6  &mt2 F7 KP_NUMBER_7  &mt2 F8 KP_NUMBER_8  &mt2 F9 KP_NUMBER_9  &mt2 F10 KP_NUMBER_0                                        &kp UNDER              &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
-&kp LCTRL            &kp LALT             &kp LGUI             &trans               &trans                &kp LEFT_SHIFT  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
+&mt2 F6 KP_NUMBER_6  &mt2 F7 KP_NUMBER_7  &mt2 F8 KP_NUMBER_8  &mt2 F9 KP_NUMBER_9  &mt2 F10 KP_NUMBER_0                                        &kp UNDER              &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_SLASH
+&kp LCTRL            &kp LALT             &kp LGUI             &trans               &trans                &kp LEFT_SHIFT  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_ASTERISK
                      &trans               &mmv MOVE_RIGHT      &mmv MOVE_DOWN       &mmv MOVE_LEFT        &mmv MOVE_UP    &kp UP_ARROW          &kp LEFT_ARROW         &kp DOWN           &kp RIGHT_ARROW  &trans
 &trans               &trans               &trans                                                                                                                                          &trans           &trans           &trans
 &kp LC(LG(LEFT))     &kp LC(LG(RIGHT))    &trans               &trans               &trans                                                      &kp LC(LG(LEFT))       &kp LC(LG(RIGHT))  &trans           &trans           &trans
@@ -167,8 +167,8 @@
             bindings = <
 &kp RG(TAB)          &kp RG(D)            &kp LC(TAB)          &kp LG(T)            &kp LA(F4)                                          &kp CLEAR                &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
 &mt2 F1 KP_NUMBER_1  &mt2 F2 KP_NUMBER_2  &mt2 F3 KP_NUMBER_3  &mt2 F4 KP_NUMBER_4  &mt2 F5 KP_NUMBER_5                                 &kp LEFT_BRACKET         &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
-&mt2 F6 KP_NUMBER_6  &mt2 F7 KP_NUMBER_7  &mt2 F8 KP_NUMBER_8  &mt2 F9 KP_NUMBER_9  &mt2 F10 KP_NUMBER_0                                &kp RS(INTERNATIONAL_1)  &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
-&kp LCTRL            &kp LALT             &kp LGUI             &lt 5 SPACE          &kp LEFT_CONTROL      &kp LEFT_SHIFT  &kp RA(LEFT)  &kp RA(RIGHT_ARROW)      &lt 6 SPACE        &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
+&mt2 F6 KP_NUMBER_6  &mt2 F7 KP_NUMBER_7  &mt2 F8 KP_NUMBER_8  &mt2 F9 KP_NUMBER_9  &mt2 F10 KP_NUMBER_0                                &kp RS(INTERNATIONAL_1)  &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_SLASH
+&kp LCTRL            &kp LALT             &kp LGUI             &lt 5 SPACE          &kp LEFT_CONTROL      &kp LEFT_SHIFT  &kp RA(LEFT)  &kp RA(RIGHT_ARROW)      &lt 6 SPACE        &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_ASTERISK
                      &trans               &mmv MOVE_RIGHT      &mmv MOVE_DOWN       &mmv MOVE_LEFT        &mmv MOVE_UP    &kp UP_ARROW  &kp LEFT_ARROW           &kp DOWN           &kp RIGHT_ARROW  &trans
 &trans               &trans               &trans                                                                                                                                    &trans           &trans           &trans
 &kp LC(LG(LEFT))     &kp LC(LG(RIGHT))    &trans               &trans               &trans                                              &kp LC(LG(LEFT))         &kp LC(LG(RIGHT))  &trans           &trans           &trans
