@@ -100,12 +100,22 @@
 
         Layer1 {
             bindings = <&mo 1>;
-            key-positions = <16 17>;
+            key-positions = <13 12>;
         };
 
         Layer2 {
             bindings = <&mo 2>;
-            key-positions = <12 13>;
+            key-positions = <22 23>;
+        };
+
+        Layer1a {
+            bindings = <&mo 1>;
+            key-positions = <16 17>;
+        };
+
+        Layer2a {
+            bindings = <&mo 2>;
+            key-positions = <26 27>;
         };
     };
 
