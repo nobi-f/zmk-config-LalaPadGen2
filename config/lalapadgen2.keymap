@@ -92,6 +92,21 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
         };
+
+        TAB2 {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
+        };
+
+        Layer1 {
+            bindings = <&mo 1>;
+            key-positions = <16 17>;
+        };
+
+        Layer2 {
+            bindings = <&mo 2>;
+            key-positions = <12 13>;
+        };
     };
 
     keymap {
